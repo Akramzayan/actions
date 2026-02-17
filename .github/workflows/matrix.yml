@@ -1,5 +1,8 @@
 name: Matrix 
-on: push
+on:
+  push:
+  workflow_dispatch:
+
 jobs:
     deploy-on-ubuntu:
       strategy:
